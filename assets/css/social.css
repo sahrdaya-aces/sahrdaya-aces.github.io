@@ -1,0 +1,16 @@
+/* Add this CSS in your stylesheet or within a <style> tag in the head section */
+
+/* Style for the social icons */
+ 
+.social-icon {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+    color: #ffffff; /* Adjust the color as needed */
+    text-decoration: none;
+}
+  
+  /* Optional: Add hover effect */
+.social-icon:hover {
+    color: #ff1e00; /* Change the color on hover as needed */
+}  
