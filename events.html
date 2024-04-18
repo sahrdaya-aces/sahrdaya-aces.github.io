@@ -3,8 +3,9 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+        <script src="https://kit.fontawesome.com/bda6fc51fa.js" crossorigin="anonymous"></script>
         <title>ACES STUDENT PORTAL</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
         <!-- Bootstrap core CSS -->
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -17,7 +18,6 @@
         <link rel="stylesheet" href="assets/css/social.css" />
         <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     </head>
-
     <body>
         <!-- ***** Preloader Start ***** -->
         <div id="js-preloader" class="js-preloader">
@@ -39,7 +39,7 @@
                     <div class="col-12">
                         <nav class="main-nav">
                             <!-- ***** Logo Start ***** -->
-                            <a href="index.html" alt="" class="logo">
+                            <a href="index.html" class="logo">
                                 <img src="assets/images/logo.png" alt="" style="width: 190px" />
                             </a>
                             <!-- ***** Logo End ***** -->
@@ -47,9 +47,10 @@
                             <ul class="nav">
                                 <li><a href="./index.html">Home</a></li>
                                 <li><a href="./desk.html">HOD</a></li>
-                                <li><a href="./faculty.html">Our Faculties</a></li>
+                                <li>
+                                  <a href="./faculty.html" >Our Faculties</a>
+                                </li>
                                 <li><a href="./ktunotes.html">KTU Notes</a></li>
-                                <li><a href="./events.html" class="active">Events</a></li>
                                 <li><a href="./notifications.html">Notifications</a></li>
                             </ul>
                             <a class="menu-trigger">
@@ -63,6 +64,105 @@
         </header>
         <!-- ***** Header Area End ***** -->
 
+        <div class="page-heading header-text">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h3>Events</h3>
+                        <span class="breadcrumb">
+                            <a href="./index.html">Home</a> > Upcoming events
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section trending">
+            <div class="container">
+
+                <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                      <div class="thumb">
+                        <a href=""
+                          ><img src="assets\images\3dmodel.png" alt=""/>
+                        </a>
+                      </div>
+                      <div class="down-content">
+                        <h4>3D Modelling Workshop</h4>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                      <div class="thumb">
+                        <a href="https://drive.google.com/drive/folders/1Ll0t0LVC0Hhz6MEBbrDWYLnqZmCRalWq?usp=drive_link"
+                          ><img src="assets\images\vr_icon.jpg" alt=""/>
+                        </a>
+                      </div>
+                      <div class="down-content">
+                        <h4>Workshop AR/VR by tilt lab</h4>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                      <div class="thumb">
+                        <a href="https://drive.google.com/drive/folders/1Ll0t0LVC0Hhz6MEBbrDWYLnqZmCRalWq?usp=drive_link"
+                          ><img src="assets\images\tedx.jpg" alt=""/>
+                        </a>
+                      </div>
+                      <div class="down-content">
+                        <h4>Sahrdaya TEDX talk by Sivaram</h4>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                      <div class="thumb">
+                        <a href="https://drive.google.com/drive/folders/1Ll0t0LVC0Hhz6MEBbrDWYLnqZmCRalWq?usp=drive_link"
+                          ><img src="assets\images\alumni_icon.jpg" alt=""/>
+                        </a>
+                      </div>
+                      <div class="down-content">
+                        <h4>Alumni interaction by Sivaram</h4>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                      <div class="thumb">
+                        <a href="https://drive.google.com/drive/folders/1Ll0t0LVC0Hhz6MEBbrDWYLnqZmCRalWq?usp=drive_link"
+                          ><img src="assets\images\hackathon_icon.jpg" alt=""/>
+                        </a>
+                      </div>
+                      <div class="down-content">
+                        <h4>Hackathon</h4>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                      <div class="thumb">
+                        <a href="https://drive.google.com/drive/folders/1Ll0t0LVC0Hhz6MEBbrDWYLnqZmCRalWq?usp=drive_link"
+                          ><img src="assets\images\coding_icon.jpg" alt=""/>
+                        </a>
+                      </div>
+                      <div class="down-content">
+                        <h4>Coding Competition</h4>
+                      </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+                </div>    
+            </div>
+        </div>
+
+        <!-- Footer -->
         <footer>
             <div class="container">
                 <div class="col-lg-12">
@@ -71,16 +171,15 @@
                         <a href="#" class="social-icon" title="Facebook"><i class="fab fa-facebook"></i></a>
                         <a href="#" class="social-icon" title="Twitter"><i class="fab fa-twitter"></i></a>
                         <a href="https://www.instagram.com/_a_c_e_s._/" class="social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/in/aces2022/" class="social-icon" title="Linkedin"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/aces2022" class="social-icon" title="Github"><i class="fab fa-github"></i></a>
-                        <a href="mailto:aces@sahrdaya.ac.in" class="social-icon" title="Gmail"><i class="fa fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/aces2022/" class="social-icon" title="Linkedin" ><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/aces2022" class="social-icon" title="Github" ><i class="fab fa-github"></i></a> 
+                        <a href="mailto:aces@sahrdaya.ac.in" class="social-icon" title="Gmail" ><i class="fa fa-envelope"></i></a>
                     </p>
                 </div>
             </div>
         </footer>
 
-        <!-- Scripts -->
-        <!-- Bootstrap core JavaScript -->
+        <!-- Scripts,  Bootstrap core JavaScript -->
         <script src="vendor/jquery/jquery.min.js"></script>
         <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/js/isotope.min.js"></script>
